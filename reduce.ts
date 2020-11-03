@@ -17,15 +17,16 @@ const rockAlbums: Object[] = [
 /**
  * Indexar un arreglo de objetos por una propiedad del objeto y buscar un objeto por el valor de una propiedad.
  * @param {Array} rockAlbums Un arreglo de objetos.
+ * @param {String} artistName Nombre del artista.
  * @returns {Object} Objeto que contiene la propiedad ingresada.
  */
 
-function reduce(rockAlbums: any[]): object{
+function reduce(rockAlbums: any[], artistName: string): object{
   const indexedAlbums = rockAlbums.reduce((acc, el) => ({
     ...acc,
     [el.artista]: el,
-  }), {});
-  return indexedAlbums['Pink Floyd'];
+  }));
+  return indexedAlbums[artistName];
 }
 
-console.log(reduce(rockAlbums));
+console.log(reduce(rockAlbums, 'Pink Floyd'));
