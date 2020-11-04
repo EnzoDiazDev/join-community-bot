@@ -5,8 +5,8 @@
 
 /**
  * set a dot at the end of the string.
- * @params  {string} || {array} - str
- * @return {string}, return a string dotted at the end
+ * @param  {string | string[]} str a simple string or string array param
+ * @return {string} return a string dotted at the end
  */
 
 function setDot(str) {
@@ -25,7 +25,7 @@ function setDot(str) {
 
   } else {
 
-    return "the str sent is not valid"; //case params are not string or array will be returned this
+    return "the text sent is not valid"; //case params are not string or array will be returned this
 
   }
 
