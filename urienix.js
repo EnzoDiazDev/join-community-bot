@@ -10,8 +10,8 @@
  * with spicified parameters
  *
  * @param {string} text - The string to cut
- * @param {int} start - The start where we are going to cut the string
- * @param {cant} cant - The amount of characters that we are going to return
+ * @param {number} start - The start where we are going to cut the string
+ * @param {number} cant - The amount of characters that we are going to return
  */
 function getStringPiece(text, start, cant){
 	return text.substr(start, cant);
