@@ -1,9 +1,8 @@
 # join-community-bot
-Un repo-challenge hecho para registrar contribuidores al proyecto de bot.
+**NOTA**: Anteriormente este repositorio fue abierto para incorporar gente a un proyecto. <br>
+Actualmente se encuentra abierto a todo aquel que quiera intentar el ejercicio. 
 
-## El reto en discord:
-@Postulantes que quieran comenzar en #community-bot, les voy a marcar los requisitos y les voy a dar una tarea para realizar.
-
+## El reto
 Saber javascript y saber leer documentación es básico. Es algo que damos por hecho que pueden hacer. <br>
 La tarea es sencilla:<br>
  * Elegir un método de array o string (el que más les guste).
@@ -36,10 +35,12 @@ Crea un fork y clona tu fork (podés guiarte sigiendo los pasos del [gist](https
 Tu pull request deberá ser de un archivo nuevo, con tu username de Discord en el canal de Fazt, de extensión `.js` o `.ts`. <br>
 El archivo tendrá que tener los pasos realizados hasta el punto 5.<br>
 El punto 2 (breve resumen), debe estar al inicio del archivo en forma de comentario. <br>
-A la hora de realizar el pull request, crea una referencia al issue que abriste anteriormente y como descripción de este, explica brevemente por qué elegiste ese método para esta tarea.
+A la hora de realizar el pull request, crea una referencia al issue* que abriste anteriormente y, como descripción de este, explica brevemente por qué elegiste ese método para esta tarea.
 
 # Importante
 Si es tu primera vez, no hagas preguntas sobre esto. Seguí los pasos como sea que lo hayas entendido, y sabrás si está bien o no a la hora de revisar tu pull request. <br>
 Es importante tener valentía e independencia para realizar las contribuciones, pues la documentación y este tipo de recursos debería ser suficiente para lograr contribuir eficientemente.
 
 *Nota: No es necesario seguir formalidades, hacelo con tu estilo y como te guste. Solo asegurate de cumplir los pasos.*
+
+*\*usa `Resolves [url de tu issue]` en la descripción de tu pullrequest para linkear el issue a éste.*
