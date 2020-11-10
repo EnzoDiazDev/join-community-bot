@@ -1,4 +1,4 @@
-# join-community-bot
+# Un reto simple
 **NOTA**: Anteriormente este repositorio fue abierto para incorporar gente a un proyecto. <br>
 Actualmente se encuentra abierto a todo aquel que quiera intentar el ejercicio. 
 
